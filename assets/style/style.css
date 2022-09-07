@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+html,
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+/* ==== SECTION ==== */
+
+section {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+/* ==== SECTION HEADER ==== */
+
+section header {
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 5em;
+}
+
+section header figure {
+    max-width: 85px;
+}
+
+section header figure img {
+    width: 100%;
+}
+
+section nav ul {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+section nav ul li a {
+    font-family: 1em;
+    font-weight: 700;
+    color: #000000;
+}
+
+/* ==== SECTION MAIN ==== */
+
+section main {
+    width: 100%;
+    height: calc(100% - 120px);
+    display: flex;
+}
+
+section .circle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #017143;
+    clip-path: circle(50% at right bottom);
+    z-index: -1;
+}
+
+section main .main-leftSide {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section main .main-leftSide .text {
+    max-width: 580px;
+    padding: 1em;
+    text-align: left;
+}
+
+section main .main-leftSide .text h1 {
+    font-size: 3.2em;
+    font-weight: 700;
+    margin: 0 0 15px 0;
+}
+
+section main .main-leftSide .text h1 span {
+    color: #017143;
+}
+
+section main .main-leftSide .text p {
+    font-size: 0.9em;
+    font-weight: 400;
+    margin: 0 0 15px 0;
+}
+
+section main .main-leftSide button {
+    padding: 0.7em 1.2em;
+    border: none;
+    outline: none;
+    background-color: #017143;
+    color: #fff;
+    border-radius: 20px;
+    font-size: 0.8em;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+section main .main-rightSide {
+    flex: 1;
+}
+
+section main .main-rightSide figure {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+section main .main-rightSide figure .coffe-image {
+    width: 350px;
+    position: absolute;
+    top: 50px;
+    left: 150px;
+}
+
+section main .main-rightSide figure .social-icons {
+    position: absolute;
+    right: 25px;
+    top: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+section main .main-rightSide figure .social-icons .face-icon {
+    width: 12px;
+    cursor: pointer;
+}
+
+section main .main-rightSide figure .social-icons .insta-icon, .twit-icon {
+    width: 20px;
+    cursor: pointer;
+}
+
+section main .thumbnails {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 10px;
+    right: 50%;
+    transform: translateX(50%);
+}
+
+section main .thumbnails figure img {
+    width: 60px;
+}
+
+section main .thumbnails figure img:not(last-child) {
+    margin: 0 25px 0 0;
+}
