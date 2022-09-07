@@ -140,14 +140,16 @@ section main .main-rightSide figure .social-icons {
     gap: 25px;
 }
 
+section main .main-rightSide figure .social-icons img {
+    cursor: pointer;
+}
+
 section main .main-rightSide figure .social-icons img:first-child {
     width: 12px;
-    cursor: pointer;
 }
 
 section main .main-rightSide figure .social-icons img:not(first-child) {
     width: 20px;
-    cursor: pointer;
 }
 
 section main .thumbnails {
@@ -155,7 +157,7 @@ section main .thumbnails {
     align-items: center;
     justify-content: center;
     position: absolute;
-    bottom: 10px;
+    bottom: 20px;
     right: 50%;
     transform: translateX(50%);
 }
@@ -165,5 +167,5 @@ section main .thumbnails figure img {
 }
 
 section main .thumbnails figure img:not(last-child) {
-    margin: 0 25px 0 0;
+    margin-right: 25px;
 }
