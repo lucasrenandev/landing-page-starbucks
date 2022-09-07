@@ -140,12 +140,12 @@ section main .main-rightSide figure .social-icons {
     gap: 25px;
 }
 
-section main .main-rightSide figure .social-icons .face-icon {
+section main .main-rightSide figure .social-icons img:first-child {
     width: 12px;
     cursor: pointer;
 }
 
-section main .main-rightSide figure .social-icons .insta-icon, .twit-icon {
+section main .main-rightSide figure .social-icons img:not(first-child) {
     width: 20px;
     cursor: pointer;
 }
