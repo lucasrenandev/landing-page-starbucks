@@ -128,7 +128,7 @@ section main .main-rightSide figure {
 }
 
 section main .main-rightSide figure .coffe-image {
-    width: 350px;
+    max-width: 350px;
     position: absolute;
     top: 50px;
     left: 150px;
@@ -168,7 +168,7 @@ section main .thumbnails {
 }
 
 section main .thumbnails figure img {
-    width: 60px;
+    max-width: 60px;
 }
 
 section main .thumbnails figure img:not(last-child) {
