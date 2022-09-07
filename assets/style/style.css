@@ -137,7 +137,7 @@ section main .main-rightSide figure .coffe-image {
 section main .main-rightSide figure .social-icons {
     position: absolute;
     right: 25px;
-    top: 180px;
+    top: 150px;
     display: flex;
     flex-direction: column;
     justify-content: center;
