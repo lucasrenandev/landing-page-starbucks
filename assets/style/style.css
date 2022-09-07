@@ -145,15 +145,11 @@ section main .main-rightSide figure .social-icons {
     gap: 25px;
 }
 
-section main .main-rightSide figure .social-icons img {
-    cursor: pointer;
-}
-
-section main .main-rightSide figure .social-icons img:first-child {
+section main .main-rightSide figure .social-icons .face-icon {
     width: 12px;
 }
 
-section main .main-rightSide figure .social-icons img:not(first-child) {
+section main .main-rightSide figure .social-icons .twit-icon, .insta-icon {
     width: 20px;
 }
 
