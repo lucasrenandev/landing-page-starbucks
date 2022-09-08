@@ -1,2 +1,3 @@
 # landing-page-starbucks
- Projeto não responsivo
+
+Landing Page da StarBucks
